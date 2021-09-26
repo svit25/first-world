@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>hello world</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="3.jpeg" alt="пидор не прогрузился" class="avatar" />
+
+            <div class="info-text">
+                <h1>Рябуха Юрий</h1>
+                <p> <strong>Я начинающий wab разработчик</strong> </p>
+                <p> <strong>Люблю путешествовать, заниматься спортом и спать</strong> </p>
+
+                <h4> Мои социальные сети</h4>
+
+                <a href="https://instagram.com/yura_ryabuha" target="_blank">Инстаграм</a>
+                |
+                <a href="https://vk.com/yura_ryabuha" target="_blank">ВК</a>
+            </div>
+
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ul class="list">
+                <li>быстрая езда</li>
+                <li>кулинария</li>
+                <li>Рыбалка</li>
+            </ul>
+        </div>
+
+
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+
+                <tr>
+                    <td>2017-2019</td>
+                    <td>odeon tours Turkey</td>
+                    <td>tour guide</td>
+                </tr>
+                <tr>
+                    <td>2019-2020</td>
+                    <td>Anex tour Thailand</td>
+                    <td>tour guide</td>
+                </tr>
+                <tr>
+                    <td>2020-2021</td>
+                    <td>Avtoray Ulyanovsk</td>
+                    <td>auto manager</td>
+                </tr>
+                <tr>
+                    <td>2021- now</td>
+                    <td>Samara-auto</td>
+                    <td>auto manager</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card bg-red">
+
+            <a href="second.html">
+                <h2>вторая страница сайта</h2>
+            </a>
+        </div>
+
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+
+            <form action="send.php" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Как тебя кличут?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Мыло, куда отвечать" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">пиши всё своё сюда</label>
+                    <textarea name="message" id="text" cols="15" rows="3"></textarea>
+                </div>
+
+
+                <input class="btn" type="submit" value="Послать">
+
+            </form>
+        </div>-
+
+
+
+
+        <div class="position">
+            <div class="box"></div>
+        </div>
+        <div style="margin-bottom: 500px;"></div>
+    </div>
+</body>
+
+</html>
