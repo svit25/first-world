@@ -1,0 +1,7 @@
+git init - следить за папкой гитхабу
+git status - статус файлов
+git add -A - добавить всё
+git commit -a -m"helo napisal"- добавить коментарий новым файлам
+git push - отправить на сервис
+git pull - скачать с сервиса
+если merge, после comit нажать 2 раза ctrl+c и  :wq!
